@@ -1,5 +1,7 @@
 class Hello
-  def self.hi
-    puts "Hello World!"
+  def self.hi(to_who = "world")
+    msg = "Hello #{to_who}!"
+    puts msg
+    msg
   end
 end
