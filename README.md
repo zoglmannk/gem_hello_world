@@ -8,8 +8,7 @@ Context about this tutorial:
 
 1. For our situation, it would be best if Vagrant could install
 plugins from private GitHub repositories. But this hasn't been 
-implemented yet. See 
-https://github.com/mitchellh/vagrant/issues/1829
+implemented yet. See [ISSUE 1829] (https://github.com/mitchellh/vagrant/issues/1829).
 
 2. In newer versions of Vagrant, it isolates itself from system
 installed GEM's. This impacts how GEM's are made available
@@ -18,7 +17,7 @@ to Vagrant.
 3. It is not appropriate in our situation to make GEM's available
 to the public, so we need to run our own server. GEM in a Box
 is supposedly the defacto solution. It is not protected by default.
-See https://github.com/geminabox/geminabox
+See [GEM in a Box] (https://github.com/geminabox/geminabox).
 
 
 ## Cut and Paste Style Tutorial
@@ -217,6 +216,7 @@ bundle exec vagrant status
 
 ## Useful Links
 
+* [GEM in a Box] (https://github.com/geminabox/geminabox)
 * [Bundler] (http://bundler.io/v1.3/gemfile.html)
 * [Bundler on GitHub] (https://github.com/bundler/bundler)
 * [Ruby GEM Tutorial] (http://guides.rubygems.org/rubygems-basics/)
