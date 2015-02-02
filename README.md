@@ -158,6 +158,7 @@ Install bundler
 sudo gem install bundler
 ```
 
+---
 
 Create Gemfile in vagrant dir
 ```
