@@ -104,6 +104,11 @@ Install zoglmannk_hello_world as a vagrant plugin
 vagrant plugin install zoglmannk_hello_world --plugin-source http://localhost:9292
 ```
 
+See that the zoglmannk_hello_world plugin is installed
+```
+vagrant plugin list
+```
+
 Modify Vagrantfile so that the hello world functionality is called
 ```
 vi Vagrantfile
@@ -114,7 +119,7 @@ Hello.hi
 ```
 
 Verify the functionality by running the following command. Look for
-`Hello world!` in the input.
+`Hello world!` in the output.
 ```
 vagrant status
 ```
