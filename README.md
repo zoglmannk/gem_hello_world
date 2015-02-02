@@ -214,3 +214,11 @@ Rerun vagrant status
 cd ~/test-vagrant
 bundle exec vagrant status
 ```
+
+## Useful Links
+
+* [Bundler] (http://bundler.io/v1.3/gemfile.html)
+* [Bundler on GitHub] (https://github.com/bundler/bundler)
+* [Ruby GEM Tutorial] (http://guides.rubygems.org/rubygems-basics/)
+* [Rake GitHub] (https://github.com/ruby/rake)
+* [Running a Private Gem Server Blog Entry] (http://johnpwood.net/2013/11/08/running-a-private-gem-server/)
